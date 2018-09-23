@@ -1,0 +1,17 @@
+.Button {
+  width: 100%;
+  border-color: #0099ff;
+  padding: 0.5em;
+  font-family: 'Helvetica Neue';
+  font-size: 16px;
+  color: white;
+  background-color: #0099ff;
+  border-radius: 3px;
+  transition: background-color 300ms, color 200ms;
+}
+
+.Button:hover {
+  color: black;
+  border-color: #ccebff;
+  background-color: #ccebff;
+}

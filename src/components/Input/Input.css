@@ -3,6 +3,8 @@
   border: 1px solid #eee;
   border-radius: 3px;
   padding: 0.5em;
+  font-family: 'Helvetica Neue';
+  font-size: 16px;
 }
 
 .Input:focus {

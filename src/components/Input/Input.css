@@ -1,0 +1,11 @@
+.Input {
+  width: 100%;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  padding: 0.5em;
+}
+
+.Input:focus {
+  outline: none;
+  border-color: #0099ff;
+}

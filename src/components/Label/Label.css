@@ -1,0 +1,10 @@
+.Label {
+  display: block;
+  margin-bottom: 0.3em;
+}
+
+.Label-required {
+  color: grey;
+  font-size: 14px;
+  font-style: italic;
+}

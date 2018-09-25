@@ -16,6 +16,17 @@ const MyForm = (props) => {
   );
 };
 
+const validate = (values) => {
+  const errors = {};
+
+  if (!values.name) {
+    errors.name = "Field cannot be empty";
+  }
+
+  return errors;
+};
+
 export default reduxForm({
-  form: "myform"
+  form: "myform",
+  validate,
 })(MyForm);

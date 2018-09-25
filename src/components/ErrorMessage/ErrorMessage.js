@@ -2,9 +2,9 @@ import React from "react";
 import "./ErrorMessage.css";
 
 const ErrorMessage = (props) => {
-  const { error } = props.meta;
+  const { error, touched } = props.meta;
 
-  if (!error) {
+  if (!error || !touched) {
     return null;
   }
 

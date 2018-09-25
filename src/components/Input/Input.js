@@ -6,12 +6,12 @@ const Input = (props) => {
   return (
     <input
       className="Input"
+      {...input}
       type={type}
       name={name}
       value={value}
       onChange={onChange}
-      placeholder={placeholder}
-      {...input} />
+      placeholder={placeholder} />
   );
 };
 
